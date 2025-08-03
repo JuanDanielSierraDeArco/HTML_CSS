@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+header {
+  height: 10vh;
+  background-color: cadetblue;
+  display: flex
+}
+footer {
+  height: 10vh;
+  background-color: darkorange;
+}
+
+.nav-list li{
+  display: inline-block;
+  margin: 5px;
+}
+
+.nav {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.nav-list {
+    list-style: none;
+}
+main {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+.nav-list a {
+    text-decoration: none;
+    color: white;
+}
+.aside {
+ background-color: blue;
+ margin: 0;
+ height: 80vh;
+ width: 20vw;
+ display: inline-block;
+}
+.contenido {
+    display: inline-block;
+    background-color: blueviolet;
+    width: 80vw;
+    height: 80vh;
+    position: absolute;
+}
