@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    height: 70vh;
+    display: flex;
+    background-color: #c08414 ;
+}
+aside {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+aside section img {
+    border-radius: 1.5rem;
+    height: 20rem;
+    width: 25rem;
+}
+
+header {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 1rem;
+}
+nav {
+    display: flex;
+    flex-direction: end;
+}
+
+img {
+    height: 8rem;
+    margin-top: 1.5rem;
+}
+
+.nav-list {
+    padding-top: 1.5rem;
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-list-li {
+    display: inline;
+    list-style: none;
+}
+
+.nav-list-li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.academia a {
+    background-color: green;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.footer {
+  height: 15vh;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  z-index: 100;
+}
+.container {
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;     /* centra verticalmente */
+    flex-grow: 1;            /* ocupa todo el espacio restante del main */
+}
+.container img {
+    border-radius: 1.5rem;
+    height: 50rem;
+    width: 45rem;
+}
