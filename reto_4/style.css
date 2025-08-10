@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_logo {
+    padding: 10px;
+    margin: 0 auto;
+    width: 320px;
+}
+
+.header_list {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.header_list li {
+    margin: 15px;
+}
+.header_list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+div {
+    align-items: center;
+}
+.imagenes {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65vh;
+    width: 100vw;
+    order: 2;
+}
+
+.comunity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comunity_img {
+    width: 50%;
+    padding: 1%;
+    min-width: 320px;
+    max-width: 420px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.aside {
+    display: flex;
+    order: 2;
+}
+
+.aside li {
+    margin-top: 10px;
+    width: 50%;
+    height: 20%;
+}
+.aside ul {
+    list-style: none;
+}
+
+
+.listas { 
+    margin: 10px;
+
+}
+
+.list-imag {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.list-imag span {
+    margin-left: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 15vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    header {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .listas {
+        display: flex;
+        margin: 10px;
+        height: 30px;
+        width: 50vh;
+        flex-wrap: wrap;
+    }
+    .listas div {
+        display: flex;
+    }
+    .aside li {
+    margin-top: 35px;
+    }
+
+    .comunity_img {
+    width: 50%;
+    padding: 1%;
+    min-width: 320px;
+    max-width: 520px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+}
+
+@media (min-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        align-items: start;
+        justify-content: start;
+    }
+    .listas div {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        margin-left: 70px;
+    }
+    .aside li {
+    margin-top: 30px;
+    margin-left: 20%;
+    }
+    span {
+        width: 400px;
+    }   
+    .comunity_img {
+    width: 100%;
+    padding: 1%;
+    min-width: 820px;
+    max-width: 920px;
+    border-radius: 10px;
+    display: block;
+    padding-left: 5%;
+    flex-grow: 1;
+    margin-left: 80px;
+}
+    div {
+        margin: 0;
+        padding: 0;
+    }
+}
